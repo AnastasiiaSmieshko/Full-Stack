@@ -1,0 +1,22 @@
+body{
+    background: url('../img/main.jpg') no-repeat center center ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #838080;
+    text-align: center;
+    color: #fafafa;
+}
+
+.main{
+    margin-left: 25%;
+    height: 76%;
+}
+
+.main h1{
+    margin-top: 30%;
+}
+
+.main .center{
+    margin-top: 70px;
+}

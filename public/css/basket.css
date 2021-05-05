@@ -1,0 +1,46 @@
+body{
+    background: url('../img/bg.jpg') no-repeat center center ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #d4cfcf;
+    color: #fafafa;
+}
+
+.products{
+    width: 100%;
+}
+
+.products h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.products p.empty{
+    text-align: center;
+}
+
+.items {
+    margin-top: 50px;
+    border: 1px solid silver;
+    height: 85%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.items .row {
+    width: 60%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.items img {
+    width:350px;
+    border-radius: 9px;
+    margin-right: 10px;
+} 
+

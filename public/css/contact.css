@@ -1,0 +1,16 @@
+body{
+    background: url('../img/main.jpg') no-repeat center center ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #838080;
+    text-align: center;
+    color: #fafafa;
+}
+
+.main{
+    margin-left: 25%;
+    height: 80%;
+    
+    
+}

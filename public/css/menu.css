@@ -1,0 +1,78 @@
+header > .top-menu {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #fafafa;
+    background: #333; 
+}
+
+header > .top-menu > .nav{
+    margin-top: 15px;  
+}
+
+header > .top-menu > .nav a {
+    color: #fafafa;
+    margin-right: 10px;
+    
+}
+
+header > .top-menu > .nav a:hover {color: rgb(211, 211, 211);}
+
+header > .top-menu > .logo a.log{
+    color:  #fafafa;
+    text-decoration: none;
+}
+
+header > .top-menu > .logo span {
+    float: left;
+    font-size: 30px;
+    font-weight: 900;
+    display: block;
+    width: 200px;
+   
+}
+
+#show-menu{
+    cursor: pointer;
+}
+
+#hidden-menu {
+    width: 300px;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    background: #fff;
+    z-index: 10;
+    text-align: center;
+}
+
+#hidden-menu .close {
+    font-size: 40px;
+    float: right;
+    margin-right: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 600ms ease;
+}
+
+#hidden-menu .close:hover {
+    color: #ccc;
+}
+
+
+#hidden-menu ul{
+   padding-top: 50px;
+    list-style: none;
+
+}
+
+#hidden-menu ul li {
+  
+    display: block;
+    margin-bottom: 10px;
+}
+
+#hidden-menu ul li a {color: #333;}
+#hidden-menu ul li a:hover {color: #ccc;}

@@ -1,0 +1,38 @@
+body {
+    background: url('../img/main.jpg') no-repeat center center ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #838080;
+    text-align: center;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    
+}
+
+.main{
+    margin-left: 25%;
+    height: 76%;
+}
+
+.main h1{
+    font-weight:700 ;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main p{
+    text-align: center;
+}
+
+.container .form-controll p.center{
+    margin-top: 20px;
+}
+
+footer{
+    margin-top: 100px !important;
+}

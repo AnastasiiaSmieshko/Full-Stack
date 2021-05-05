@@ -1,0 +1,49 @@
+.intro{
+    width: 100% ;
+}
+
+.intro .top-img{
+    width: 100%;
+    height: 400px;
+    background: url('../img/main_bg.jpg') no-repeat center center ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.intro  h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 35px;
+    color:#333; 
+    height: 100px;
+}
+
+.intro .articles{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.intro .articles .article{
+    width:25%;
+    margin-left:5%;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid silver;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #faf2f2;
+}
+
+.intro .articles .article img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.intro .articles .article h3,
+.intro .articles .article p{
+    margin-top: 10px;
+}
+
+
+

@@ -1,0 +1,65 @@
+body{
+    background: url('../img/bg.jpg') no-repeat center center ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #d4cfcf;
+    color: #fafafa;
+}
+
+.catalog {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.catalog h1{
+    text-align: center;
+}
+
+.catalog > .trips {
+   width:70%;
+   margin-left: 20%;
+}
+
+.catalog > .trips > .trip {
+    margin-right: 10%;
+    height: 230px;
+    background: #ffffff;
+    border-radius: 5px ;
+    margin-top: 50px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+}
+
+.catalog > .trips > .trip .image {
+    width:300px;
+    overflow: hidden;
+}
+
+.catalog > .trips > .trip .image img {
+    border-radius: 5px  0 0 5px;
+    transition: all 600ms ease;
+    height: 229px;
+}
+
+.catalog > .trips > .trip .image img:hover {transform: scale(1.15)}
+
+.catalog > .trips > .trip .introduse{
+    width: 60%;
+    font-size: 18px;
+    color: #000;
+    margin-top: -210px;
+    margin-left: 320px;
+}
+
+.catalog > .trips > .trip .introduse h3{
+    padding-top: -50px;
+}
+
+.catalog > .trips > .trip p {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+

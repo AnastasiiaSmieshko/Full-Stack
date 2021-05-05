@@ -1,0 +1,60 @@
+footer  {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer .copy{
+    color: #fff;
+}
+
+footer > .social p{
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+footer > .social >a > i {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 30%;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: transform 600ms ease;
+    color: rgb(255, 255, 255);
+}
+footer > .social .fa-twitter{
+    background-color: skyblue;
+}
+
+footer > .social .fa-youtube{
+    background-color: rgb(247, 68, 77);
+}
+
+footer > .social .fa-telegram{
+    background-color: rgb(92, 191, 236);
+}
+
+footer > .social .fa-whatsapp-square{
+    background-color: rgb(49, 226, 58);
+}
+
+footer > .social .fa-viber{
+    background-color: rgb(196, 49, 226);
+}
+
+footer > .social .fa-facebook{
+    background-color: rgb(31, 42, 190);
+}
+
+footer > .social > a > i:hover {
+    transition: transform 600ms ease;
+    transform: translateY(-5px);
+}      

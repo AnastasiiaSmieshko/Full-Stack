@@ -1,0 +1,64 @@
+body{
+    background: url('../img/bg.jpg') no-repeat center center ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #d4cfcf;
+    color: #fafafa;
+}
+
+.main {
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 10px;
+    height: 73%;
+    padding-top: 2%;
+    opacity: 0.9;
+    
+    
+}
+
+.main h2{
+    text-align: center;
+}
+
+.reviews{
+    background-color: rgb(231, 225, 225);
+    border-radius: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    height: 50px;
+    margin-left: 5%;
+   
+    
+    -webkit-box-shadow: 10px 11px 15px 0px rgba(43, 67, 85, 0.2);
+    -moz-box-shadow: 10px 11px 15px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 10px 11px 15px 0px rgba(34, 60, 80, 0.2);
+    
+}
+
+.reviews p{
+    color: black;
+}
+
+.pagination{
+    margin-left: 45%;
+}
+
+p.info{
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+    background-color: rgb(231, 225, 225);
+    border-radius: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 40%;
+    margin-left: 25%;
+    opacity: 0.9;
+}

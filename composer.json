@@ -1,0 +1,14 @@
+{
+    "name": "vendor/www",
+    "description": "This is trevel web site",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Anastasiia",
+            "email": "anastasiasmeshko22@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.3"
+    }
+}
